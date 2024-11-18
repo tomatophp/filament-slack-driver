@@ -7,7 +7,6 @@ use Filament\Panel;
 
 class FilamentSlackDriverPlugin implements Plugin
 {
-
     public function getId(): string
     {
         return 'filament-slack-driver';
