@@ -1,4 +1,4 @@
-![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-slack-driver/master/art/3x1io-tomato-slack-driver.jpg)
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-slack-driver/master/arts/fadymondy-tomato-slack-driver.jpg)
 
 # Filament slack driver
 
@@ -7,6 +7,12 @@
 [![Downloads](https://poser.pugx.org/tomatophp/filament-slack-driver/d/total.svg)](https://packagist.org/packages/tomatophp/filament-slack-driver)
 
 Slack Channel WebHook Integration For Filament Alerts Sender
+
+## Version Compatibility
+
+| Plugin | Filament | Laravel     | PHP  |
+|--------|----------|-------------|------|
+| 5.x    | 5.x      | 12.x, 13.x  | 8.2+ |
 
 ## Installation
 
