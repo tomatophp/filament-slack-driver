@@ -23,7 +23,7 @@
     "icon": "bxl-slack",
     "placeholder": "https://raw.githubusercontent.com/tomatophp/filament-slack-driver/master/arts/fadymondy-tomato-slack-driver.jpg",
     "type": "plugin",
-    "version": "v5.0.0",
+    "version": "v5.1.0",
     "github" : "https://github.com/tomatophp/filament-slack-driver",
     "docs" : "https://github.com/tomatophp/filament-slack-driver"
 }

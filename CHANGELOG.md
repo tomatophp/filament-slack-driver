@@ -1,4 +1,4 @@
-# V5.0.0
+# V5.1.0
 
 - real Slack driver for `tomatophp/filament-alerts` ^5.0, sending Block Kit messages through an incoming webhook or `chat.postMessage`
 - Slack settings page registered on the settings hub, with write-only webhook and bot token inputs
