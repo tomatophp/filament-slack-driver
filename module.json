@@ -2,10 +2,10 @@
     "name": "FilamentSlackDriver",
     "alias": "filament-slack-driver",
     "description": {
-        "ar": "Slack Channel WebHook Integration For Filament Alerts Sender",
-        "en": "Slack Channel WebHook Integration For Filament Alerts Sender",
-        "gr": "Slack Channel WebHook Integration For Filament Alerts Sender",
-        "sp": "Slack Channel WebHook Integration For Filament Alerts Sender"
+        "ar": "Slack Channel Integration for Filament Alerts Sender",
+        "en": "Slack Channel Integration for Filament Alerts Sender",
+        "gr": "Slack Channel Integration for Filament Alerts Sender",
+        "sp": "Slack Channel Integration for Filament Alerts Sender"
     },
     "keywords": [],
     "priority": 0,
@@ -20,8 +20,8 @@
         "sp": "Filament slack driver"
     },
     "color": "#cc1448",
-    "icon": "heroicon-c-users",
-    "placeholder": "https://raw.githubusercontent.com/tomatophp/filament-slack-driver/master/art/3x1io-tomato-slack-driver.jpg",
+    "icon": "bxl-slack",
+    "placeholder": "https://raw.githubusercontent.com/tomatophp/filament-slack-driver/master/arts/fadymondy-tomato-slack-driver.jpg",
     "type": "plugin",
     "version": "v5.0.0",
     "github" : "https://github.com/tomatophp/filament-slack-driver",

@@ -2,6 +2,7 @@
 
 namespace TomatoPHP\FilamentSlackDriver;
 
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 use TomatoPHP\FilamentSlackDriver\Console\FilamentSlackDriverInstall;
 
@@ -52,6 +53,22 @@ class FilamentSlackDriverServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        // you boot methods here
+        try {
+            // Settings saved from the settings hub win over the env based config, empty settings keep the config value.
+            foreach ([
+                'webhook' => 'slack_webhook',
+                'token' => 'slack_token',
+                'channel' => 'slack_channel',
+                'active' => 'slack_active',
+            ] as $config => $setting) {
+                $value = setting($setting);
+
+                if (filled($value)) {
+                    Config::set("filament-slack-driver.{$config}", $value);
+                }
+            }
+        } catch (\Exception $e) {
+            \Log::error($e);
+        }
     }
 }
